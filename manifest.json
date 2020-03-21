@@ -3,6 +3,14 @@
     "version": "1.0",
     "description": "Build an Extension!",
     "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+    "background": {
+        "scripts": [
+            "api.js",
+            "background.js"
+        ],
+        "persistent": false
+    },
     "content_scripts": [
         {
             "matches": ["https://www.fukuishimbun.co.jp/*"],
