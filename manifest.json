@@ -1,7 +1,7 @@
 {
-    "name": "Getting Started Example",
+    "name": "年寄りに優しいインターネット",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "カタカナが分からない年寄りに優しいインターネットを実現します",
     "manifest_version": 2,
     "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
     "background": {
