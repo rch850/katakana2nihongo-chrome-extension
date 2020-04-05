@@ -1,7 +1,7 @@
 {
-    "name": "年寄りに優しいインターネット",
-    "version": "1.1",
-    "description": "カタカナが分からない年寄りに優しいインターネットを実現します",
+    "name": "お年寄りに優しいインターネット",
+    "version": "1.2",
+    "description": "カタカナが分からないお年寄りに優しいインターネットを実現します。対応サイトはごく一部です。",
     "manifest_version": 2,
     "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
     "icons": {
